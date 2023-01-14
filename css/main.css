@@ -179,8 +179,8 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-
 }
 .services .row{
   display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
-  grid-gap:20px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  grid-gap:10px;
 }
 .row .box {
   background-color: #ffff;
@@ -252,7 +252,7 @@ justify-content: center;
 }
 .footer{
     display:grid;
-    grid-template-columns: repeat(auto-fill,minmax(230px,auto));
+    grid-template-columns: repeat(auto-fill,minmax(200px,auto));
     gap:50px;
     padding:100px;
     justify-content: center;
