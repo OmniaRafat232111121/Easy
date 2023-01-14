@@ -106,17 +106,17 @@ html {
  
 }
 .header .icons div {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   color: var(--black);
   background-color: var(--light-bg);
-  font-size: 20px;
+  font-size: 10px;
   cursor: pointer;
   text-align: center;
   margin: auto;
   border-radius: 10px;
-  padding: 10px;
-  margin-left: 10px;
+  padding: 5px;
+ 
 }
 .header .icons div:hover,
 .contact-info .info i:hover,
@@ -301,6 +301,7 @@ justify-content: center;
   }
   .header #menu-btn {
     display: inline-block;
+    font-size: 15px;;
   }
 .navbar {
   position: absolute;
@@ -308,7 +309,7 @@ justify-content: center;
 
   
   top: 99%;
-  left: 0;
+   right:0px;
   
    background-color: var(--green);
    color:#fff;
