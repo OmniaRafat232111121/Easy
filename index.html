@@ -1,5 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('cxpz7cnh7cf7');
+</script>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +42,7 @@
     <!--style css-->
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <a href="https:/wa.me/966571975782"  target="_blank" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
 
@@ -98,10 +125,14 @@
             </a>
         </div>
         <div class="box">
-            <img src="./imgs/قوي.jpg" alt=""/>
+            <a href="strong.html">
+                <img src="./imgs/قوي.jpg" alt=""/>
+            </a>
         </div>
           <div class="box">
-            <img src="./imgs/تامن.jpg" alt=""/>
+           <a href="sec.html">
+             <img src="./imgs/تامن.jpg" alt=""/>
+           </a>
         </div>
         <div class="box">
             <img src="./imgs/قوي.jpg" alt=""/>
@@ -149,7 +180,9 @@
            </a>
         </div>
           <div class="box">
-            <img src="./imgs/طاقات.jpeg" alt="" class="box-round" />
+         <a href="en.html">
+               <img src="./imgs/طاقات.jpeg" alt="" class="box-round" />
+         </a>
         </div>
         <div class="box">
             <img src="./imgs/Bank.jpg" alt="" />
@@ -203,10 +236,10 @@
         <h3>Travel</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eius maiores officia sed aliquid dicta dolore inventore numquam? Suscipit, quod!</p>
     <div class="social-icons">
-      <a href="">
+      <a href="https://twitter.com/sahl246248?t=CJOjb0WeDimAmwqRmeHg1g&s=09">
          <i  class="fa-brands fa-twitter"></i>
       </a>
-   <a href=" https://www.facebook.com/profile.php?id=100088914097513">
+   <a href=" https://www.facebook.com/profile.php?id=100089468765474">
         <i class="fa-brands fa-facebook"></i>
    </a>
     
