@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 :root {
-  --green:#76bc6c;
+  --green:#88cbfd;
   --blue:#2d348f;
   --black:#111;
   --white:#fff;
@@ -80,7 +80,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height:60px;
+  height:70px;
   z-index: 1000;
   background:var(--white);
   box-shadow: var(--box-shadow);
