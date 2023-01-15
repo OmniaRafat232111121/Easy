@@ -215,6 +215,23 @@ justify-content: center;
   width:100%;
   max-width: 100%;
 }
+
+/*banner*/
+
+.banner{
+
+
+ margin-top: 30px;
+   padding:20px;
+  
+}
+.banner img{
+  max-width: 100%;
+  width:100%;
+     background-image: url("../imgs/Banner.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+
+}
 /*contact us*/
 .contact{
   padding:60px;
@@ -308,7 +325,7 @@ justify-content: center;
   width:50%;
 
   
-  top: 99%;
+  top:100%;
    right:0px;
   
    background-color: var(--green);
@@ -324,7 +341,7 @@ justify-content: center;
   
 }
 .navbar.active {
-  height:100vh;
+  height:500px;
   right:-50px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }

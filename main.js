@@ -32,3 +32,24 @@ var swiper = new Swiper(".home", {
 
 
 
+
+const setScroll=() => {
+  const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset: true
+})
+
+
+sr.reveal(`.left-about`, { delay: 500 });
+sr.reveal(`.right-about`, { delay: 300 });
+sr.reveal(`.box`, { delay: 500 });
+sr.reveal(`.banner `, { delay: 200 })
+sr.reveal(` .contact `, {delay: 900})
+sr.reveal(`.social-icons`, {delay: 600})
+sr.reveal(` .products-boxes .box, .footer`,{interval: 100})
+
+}
+setScroll();
