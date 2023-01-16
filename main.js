@@ -53,3 +53,13 @@ sr.reveal(` .products-boxes .box, .footer`,{interval: 100})
 
 }
 setScroll();
+
+
+const btns = document.querySelectorAll(".question-btn");
+btns.forEach(function (btn) {
+  btn.addEventListener("click", function (e) {
+    const question = e.currentTarget.parentElement.parentElement;
+
+    question.classList.toggle("show-text");
+  });
+});
