@@ -139,8 +139,9 @@ html {
 .container img{
     position: absolute;
     width:100%;
-    height:100%;
+    height:70%;
     object-fit: cover;
+  
 }
 .swiper-pagination-bullet{
 padding:5px;
