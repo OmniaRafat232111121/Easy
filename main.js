@@ -70,7 +70,7 @@ sr.reveal(` .products-boxes .box, .footer`,{interval: 100})
 setScroll();
 
 
-const btns = document.querySelectorAll(".question-btn");
+const btnns = document.querySelectorAll(".question-btn");
 btns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
     const question = e.currentTarget.parentElement.parentElement;
@@ -78,3 +78,21 @@ btns.forEach(function (btn) {
     question.classList.toggle("show-text");
   });
 });
+
+
+const reducer = (state = [], action)=>{
+  if (action.type == 'split') {
+    return action.data.split("")
+  }
+  return state;
+}
+//create store
+const store = Redux.createStore('reducer')
+store.dispatch(action);
+//get state
+console.log(store.getState());
+//Action 
+const action = {
+  type:'split',
+  data:'omnia rafat'
+}

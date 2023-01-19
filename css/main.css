@@ -272,8 +272,8 @@ justify-content: center;
 }
 .footer{
     display:grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px,auto));
-    gap:150px;
+    grid-template-columns: repeat(auto-fill,minmax(150px,auto));
+    gap:100px;
     padding:100px;
     justify-content: center;
     background-color: var(--blue);
