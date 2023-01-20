@@ -93,7 +93,7 @@ html {
 }
 @media (max-width:767px) {
   .header .logo img {
- width: 100px;
+ width: 80px;
  min-width: 100%;
  
 }
